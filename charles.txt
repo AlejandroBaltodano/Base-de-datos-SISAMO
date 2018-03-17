@@ -57,3 +57,6 @@ con eso clonamos el proyecto Base de datos sisamo, ya que asi se llama el reposi
 con ese nombre, ahora en gitbash nos ubicamos en ese archivo y empezamos a gestionarlo (add, pull, push)
 lo que se desee agregar quitar.
 
+algunos links
+https://git-scm.com/book/es/v2/Fundamentos-de-Git-Deshacer-Cosas
+

@@ -46,3 +46,14 @@ y listo
 ahora para recuperar los cambios realizados 
 le damos el comando git pull
 
+para ver el historial de cambios
+git log
+
+mae clonar (poner el proyecto en otra pc o copiarlo en otra ruta)
+nada mas nos ubicamos en la capeta o lugar donde queremos descargar el repositorio o proyecto 
+y ponemos
+git clone https://github.com/AlejandroBaltodano/Base-de-datos-SISAMO.git
+con eso clonamos el proyecto Base de datos sisamo, ya que asi se llama el repositorio, el archivo se descargara
+con ese nombre, ahora en gitbash nos ubicamos en ese archivo y empezamos a gestionarlo (add, pull, push)
+lo que se desee agregar quitar.
+

@@ -1,0 +1,48 @@
+Para cear un nuevo proyecto con repositorio git.
+antes hay que ubicarse en el archivo el cual queremos subir al reporsitorio en github
+para eso se abre gitbash
+y con el comando cd
+se va buscabdo el archivo, nos ubicamos en el y vamos ejecutando los 
+siguientes comandos:
+
+
+Primero sera crear una cuenta en github y crear ahi el repositorio a utilizar, comunmente 
+es el nombre del proyecto a desarrolla.
+Luego ya creado ejecutamos los siguientes comandos (igualmente en github, dentro del repositorio creado
+nos dira los comandos a utilizar)
+1- para iniciar el proyecto:
+git init 
+2- para subir eñ archivo al proyecto al repositorio utilizaremos el link que nos da
+y seria asi:
+git remote add origin https://github.com/AlejandroBaltodano/akai.git
+ese link es la ruta del repositorio, en este caso se llama akai
+
+3- ejecutamos el comando:
+git push -u origin master
+
+
+y listo ya podemos utilizar el repositorio.
+
+Ahora para poder administrarlo:
+
+1-para ver el estado de los cambios:
+git status
+nos dira si se hicieron los cambios
+
+2- para eliminar todo o un solo archivo:
+git rm . 
+elimina todo
+git rm "name file"
+
+3- ahora para poder subir archivos seguimos los siguintes comandos:
+3.1 - git add . 
+se agregan todos los cambios, importannte que si se quiere agregar un cambio (ya sea texto o archivos) le damos git add "nombre"
+3.2 - git commit -m "mensaje"
+comitea el o los cambios
+3.3 - git push
+
+y listo
+
+ahora para recuperar los cambios realizados 
+le damos el comando git pull
+

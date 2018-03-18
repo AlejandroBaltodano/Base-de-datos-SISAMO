@@ -75,8 +75,6 @@ incluyendo los dos guiones.
 el resultado sera el head apuntando a la rama en donde estamos ubicado
 mediante head es que nos ubicamos en que rama estamos, igual master es la rama principal por si aquello
 
-<<<<<<< HEAD
-=======
 entonces cree la rama pruebarama con el comando git branch pruebarama
 ahora solo falta ubicarnos en ella, con el comando
 git checkout nombre de la rama donde queremos ir
@@ -94,9 +92,10 @@ esto para confirmar los cambios en la nueva rama y crearla en github
 
 pero despues solo se puede usar el git push normalmente
 
-
-
-
->>>>>>> pruebarama
+para fusionar las ramas
+nos metemos a la rama donde queremos montar los archivos de otra rama
+y le damos, por ejmplo, estoy en master y quiero fusionarlo con lo que hay en pruebarama
+entonces estando en master, ejecuto
+git merge pruebarama
 
 

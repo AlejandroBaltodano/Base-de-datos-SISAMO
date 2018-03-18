@@ -60,3 +60,5 @@ lo que se desee agregar quitar.
 algunos links
 https://git-scm.com/book/es/v2/Fundamentos-de-Git-Deshacer-Cosas
 
+cuando se quiere desacer un commit por mal mensaje o confirmar un cambio antes de tiempo
+git commit --amend

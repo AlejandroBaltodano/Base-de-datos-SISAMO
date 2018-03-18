@@ -62,3 +62,18 @@ https://git-scm.com/book/es/v2/Fundamentos-de-Git-Deshacer-Cosas
 
 cuando se quiere desacer un commit por mal mensaje o confirmar un cambio antes de tiempo
 git commit --amend
+
+Ramificacion en git:
+Qué sucede cuando creas una nueva rama? Bueno…?, simplemente se crea un nuevo apuntador para que lo puedas mover libremente. 
+Por ejemplo, supongamos que quieres crear una rama nueva denominada "testing". Para ello, usarás el comando git branch:
+git branch testing
+Esto creará un nuevo apuntador apuntando a la misma confirmación donde estés actualmente.
+importante mencionar que el comando git branch solo me crea la rama, no me apunta directamente a ella.
+Para saber en que rama estamos ubicados se ejecuta el comando:
+git log --oneline --decorate 
+incluyendo los dos guiones.
+el resultado sera el head apuntando a la rama en donde estamos ubicado
+mediante head es que nos ubicamos en que rama estamos, igual master es la rama principal por si aquello
+
+
+

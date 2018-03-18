@@ -75,5 +75,28 @@ incluyendo los dos guiones.
 el resultado sera el head apuntando a la rama en donde estamos ubicado
 mediante head es que nos ubicamos en que rama estamos, igual master es la rama principal por si aquello
 
+<<<<<<< HEAD
+=======
+entonces cree la rama pruebarama con el comando git branch pruebarama
+ahora solo falta ubicarnos en ella, con el comando
+git checkout nombre de la rama donde queremos ir
+ahora como manera de ejemplo se trabajara en la nueva rama pruebarama
+git checkout pruebarama
+
+y de ahi podemos trabajar en esta rama, dando commits y subiendolos
+ya que no afectara a la rama principal master
+
+solo con la execpcion que cuando le vamos a dar push para subir al github
+le damos el comando
+git push  git push --set-upstream origin pruebarama
+
+esto para confirmar los cambios en la nueva rama y crearla en github
+
+pero despues solo se puede usar el git push normalmente
+
+
+
+
+>>>>>>> pruebarama
 
 

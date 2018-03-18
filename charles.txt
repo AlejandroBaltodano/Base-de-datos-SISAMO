@@ -88,7 +88,9 @@ solo con la execpcion que cuando le vamos a dar push para subir al github
 le damos el comando
 git push  git push --set-upstream origin pruebarama
 
-esto para confirmar los cambios en la nueva rama
+esto para confirmar los cambios en la nueva rama y crearla en github
+
+pero despues solo se puede usar el git push normalmente
 
 
 

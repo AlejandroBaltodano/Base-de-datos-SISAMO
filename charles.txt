@@ -98,4 +98,8 @@ y le damos, por ejmplo, estoy en master y quiero fusionarlo con lo que hay en pr
 entonces estando en master, ejecuto
 git merge pruebarama
 
+luego tras haber fusionado master apuntara al mismo lugar que pruebarama, entonces 
+ya no necesitamos a pruebarama, entonces la borraremos con 
+git branch -d nombre rama
+git branch -d pruebarama
 

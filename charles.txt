@@ -86,7 +86,7 @@ ya que no afectara a la rama principal master
 
 solo con la execpcion que cuando le vamos a dar push para subir al github
 le damos el comando
-git push  git push --set-upstream origin pruebarama
+git push --set-upstream origin pruebarama
 
 esto para confirmar los cambios en la nueva rama y crearla en github
 
